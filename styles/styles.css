@@ -105,7 +105,7 @@ h2 {
 h3 {
   font-family: var(--body-font-family);
   font-weight: 400;
-  color: white;
+  color: rgba(255, 255, 255, 0);
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -124,7 +124,7 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
-  color: #001A71;
+  color: #001a7100;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;
