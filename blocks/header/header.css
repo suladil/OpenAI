@@ -69,18 +69,37 @@ header nav .nav-hamburger {
   align-items: center;
 }
 
+/* === Header “Log In” button — OpenAI‑style capsule ============== */
 header nav .nav-hamburger button {
-  height: 22px;
-  margin: 0;
-  border: 0;
-  border-radius: 0;
-  padding: 0;
-  background-color: var(--background-color);
-  color: inherit;
-  overflow: initial;
-  text-overflow: initial;
-  white-space: initial;
+  /* Layout */
+  display: inline-flex;          /* keeps the text vertically centered */
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;                  /* space for an optional icon */
+  height: 34px;                  /* mirrors OpenAI’s ~34 px nav buttons */
+  padding: 0 16px;               /* even left/right breathing room */
+  min-width: 80px;               /* prevents a stubby pill on short words */
+
+  /* Capsule shape */
+  border: 1px solid currentColor;
+  border-radius: 6px;            /* OpenAI uses a subtle 6 px radius */
+  background: transparent;
+
+  /* Typography / colours */
+  font: 600 14px/1.2 var(--font-family, inherit);
+  color: inherit;                /* inherits your nav’s text colour */
+
+  /* Interaction */
+  cursor: pointer;
+  transition: background-color .2s ease, color .2s ease;
 }
+
+header nav .nav-hamburger button:hover,
+header nav .nav-hamburger button:focus-visible {
+  background-color: rgba(0,0,0,0.05);   /* light tint on hover/focus */
+  outline: none;                        /* rely on :focus-visible */
+}
+
 
 header nav .nav-hamburger-icon,
 header nav .nav-hamburger-icon::before,
