@@ -84,14 +84,46 @@ header {
   height: var(--nav-height);
 }
 
-h1,
-h2,
-h3,
-h4,
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  color: #000000;
+  font-size: 70px;
+  line-height: 88px;
+}
+h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  scroll-margin: calc(var(--nav-height) + 1em);
+}
+h3 {
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  color: white;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  scroll-margin: calc(var(--nav-height) + 1em);
+}
+h4 {
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  color: white;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  scroll-margin: calc(var(--nav-height) + 1em);
+}
 h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: 600;
+  color: #001A71;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;
