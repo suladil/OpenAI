@@ -58,7 +58,7 @@ header nav a:any-link {
 }
 
 header nav a.button:any-link {
-  background-color: #FFF;
+  background-color: #f5f5f5;
 }
 
 /* hamburger */
