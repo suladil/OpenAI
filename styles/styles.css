@@ -185,7 +185,7 @@ a:hover {
 a.button:any-link,
 button {
   font-family: var(--body-font-family);
-  display: flex;
+  display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
   border: 2px solid transparent;
