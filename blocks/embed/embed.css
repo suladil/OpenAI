@@ -1,7 +1,7 @@
 main .embed {
   width: unset;
   text-align: center;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 32px auto;
 }
 
@@ -32,7 +32,7 @@ main .embed .embed-placeholder > * {
 main .embed .embed-placeholder picture img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:fill;
 }
 
 main .embed .embed-placeholder-play button {
