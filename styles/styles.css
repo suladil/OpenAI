@@ -197,7 +197,7 @@ button {
   text-align: center;
   font-style: normal;
   align-items: center;
-  font-weight: 600;
+  font-weight: 300;
   cursor: pointer;
   color: black;
   background-color: var(--link-color);
